@@ -16,4 +16,21 @@ CD: change directory
 LS: files directory
 PWD: what is the current directory url
 TOUCH: creating a new file (example: touch file.txt)
-Gvcgdsjd
+
+
+
+Github Headless Issue:
+
+1.⁠ ⁠To change versions, use 'git checkout <COMMIT#>'
+2.⁠ ⁠To see which version you are on (or branches), type 'git branch -v'. The green text means what you are on.
+NOTE: when you change commits, the HEAD of GitHub gets detached (https://www.git-tower.com/learn/git/faq/git-checkout-commits)
+3.⁠ ⁠Once you want to move back to the original code at the top without any changes, then do ⁠ 'git checkout main' ⁠
+
+HOWEVER, if you NEED to make a change to an older version that needs to replace the Main branch code (including all changes in the main branch on GitHub), then do:
+⁠ git branch tmp ⁠ : (THIS creating a new branch called tmp)
+⁠ git checkout main ⁠ (Move back to MAIN latest changes on GitHub)
+⁠ git merge tmp ⁠ (Merge the tmp changes back onto GITHUB)
+⁠ git branch -D tmp ⁠ (Delete tmp changes)
+
+
+IF all else fails, delete the repository folder and do ⁠ git clone <HTTPS> ⁠
