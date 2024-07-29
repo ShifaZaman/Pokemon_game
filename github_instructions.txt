@@ -1,0 +1,18 @@
+{optional] 
+First time setting up github on mac? do this (https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsettings%2Ftokens) AND then do ⁠ git init ⁠, ⁠ git add . ⁠, ⁠ git commit -m "first commit" ⁠, ⁠ git push ⁠, then login/
+
+[1] ⁠ git clone <HTTPS> ⁠
+[2] ⁠ git add . ⁠ OR ⁠ git add file.py ⁠
+[3] ⁠ git status ⁠ tells you what has been detected as changed that you wish to add, aka, what the computer has picked up.
+[4] ⁠ git commit -m "MESSAGE" ⁠ tells you what you wish to save as this for Github to recognize if you wish to revert back in future.
+[5] ⁠ git push ⁠ pushes your changes that you added in step 2 into production Github page.
+[6] ⁠ git checkout <commit#> ⁠ this helps you move back and forth between the different versions
+
+For more GIT commands, do this: https://education.github.com/git-cheat-sheet-education.pdf
+
+
+BASH COMMANDS: 
+CD: change directory
+LS: files directory
+PWD: what is the current directory url
+TOUCH: creating a new file (example: touch file.txt)
