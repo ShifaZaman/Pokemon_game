@@ -16,3 +16,4 @@ CD: change directory
 LS: files directory
 PWD: what is the current directory url
 TOUCH: creating a new file (example: touch file.txt)
+G
